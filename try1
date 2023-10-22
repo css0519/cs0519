@@ -1,0 +1,3 @@
+book_id = 'E050158736_reflowable_normal'
+downloader = BooksDL::Downloader.new(book_id)
+downloader.perform
